@@ -8,7 +8,7 @@ a:hover { text-decoration: underline }
 h1 { color: #444 }
 h2 { color: #555 }
 h3 { color: #666 }
-ul { list-style-type: none; border: 0 solid silver; border-width: 0 0 1px 1px; padding: 0 0; min-width: 100px; max-width: 100px; }
+ul { list-style-type: none; border: 0 solid silver; border-width: 0 0 1px 1px; padding: 0 0; min-width: 100px; max-width: 150px; }
 li { border: 0 solid silver; border-width: 1px 1px 0 0; padding: .5em }
 li:nth-child(2n+1) { background-color: #fff }
 li:nth-child(2n) { background-color: #dadada }
