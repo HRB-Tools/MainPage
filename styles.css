@@ -9,6 +9,7 @@ h1 { color: #444 }
 h2 { color: #555 }
 h3 { color: #666 }
 table { border: 0 solid silver; border-width: 1px 1px 1px 1px; padding: 0 0; min-width: 100px; max-width: 150px; }
+td:first-child { border-width: 0px 1px 0 0; }
 td,th { border: 0 solid silver; border-width: 0px 0px 0 0; padding: 0.5em; }
 tr:nth-child(2n+1) { background-color: #fff }
 tr:nth-child(2n) { background-color: #dadada }
