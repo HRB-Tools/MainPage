@@ -1,3 +1,18 @@
-html, body { font: 20px normal, Trebuchet, sans-serif; }
-body { background-color: azure; margin: none; }
-a { color: #444444 }
+html, body { font: 18px normal, Trebuchet, sans-serif; color: #555}
+
+body { background-color: azure; margin: none; padding: 0 0; margin: 0 auto 0 auto;}
+
+a, a:visited, a:active { color: #444444; text-decoration: none; }
+
+a:hover { text-decoration: underline }
+h1 { color: #444 }
+h2 { color: #555 }
+h3 { color: #666 }
+ul { list-style-type: none; border: 0 solid silver; border-width: 0 0 1px 1px; padding: 0 0; min-width: 100px; max-width: 100px; }
+li { border: 0 solid silver; border-width: 1px 1px 0 0; padding: .5em }
+li:nth-child(2n+1) { background-color: #fff }
+li:nth-child(2n) { background-color: #dadada }
+
+.main-content { background-color: #ffffff; padding: 20px 40px; height: 85%; width: 1600px; margin: 10px auto 20px auto; }
+.wrap-content { background-color: #e0fbfb; padding: 20px 40px; margin: 100px auto 20px auto; width: 90%}
+.headline { background-color: #69daf7; margin: 0 auto 0 auto; padding: 8px 18px; color: #fda; border-bottom: 3px solid #69bbff; position: fixed; top: 0px;width: 100%}
